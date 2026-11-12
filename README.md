@@ -73,6 +73,8 @@ Requires macOS 14 or later. Apple Silicon and Intel.
 - Apple Music: macOS asks once for permission to control the Music app.
 - Marktune doesn't download music or block ads. It plays your own subscription through the service's official web player.
 
+Full text: [privacy policy](https://markdev.app/tools/privacy/).
+
 ## How it works
 
 YouTube Music, Spotify and Yandex Music have no public playback API for desktop apps, so Marktune opens their regular website in an invisible `WKWebView`. It reads the title, cover and time from the page and presses the page's own buttons with JavaScript. Queue, playlists and search use the same requests the website makes. Apple Music is controlled with AppleScript. Native Swift and SwiftUI.
